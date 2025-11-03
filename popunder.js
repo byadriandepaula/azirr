@@ -1,4 +1,3 @@
-// popunder.js
 (function () {
     document.addEventListener('click', function () {
         if (!localStorage.getItem('popunderMostrado')) {
