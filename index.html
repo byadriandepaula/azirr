@@ -28,11 +28,17 @@
         <img src="assets/images/azirr.svg" alt="Azirr" class="h-8 w-auto" />
       </a>
       <nav class="hidden items-center gap-8 md:flex">
-        <a class="text-sm font-medium transition-opacity hover:opacity-80" href="#">Encontrar Emprego</a>
-        <a class="text-sm font-medium transition-opacity hover:opacity-80" href="#">Sobre Nós</a>
+        <a class="text-sm font-medium transition-opacity hover:opacity-80" href="#">Cadastrar CV</a>
+        <a class="text-sm font-medium transition-opacity hover:opacity-80" href="#">Para Empresas</a>
+        <a class="text-sm font-medium transition-opacity hover:opacity-80" href="#">Ajuda</a>
       </nav>
       <div class="flex items-center gap-4">
-        <button class="flex min-w-[84px] items-center justify-center rounded-lg h-10 px-4 bg-cta text-white text-sm font-bold hover:opacity-90">Entrar</button>
+        <button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-cta text-white text-sm font-bold leading-normal tracking-wide transition-opacity hover:opacity-90">
+          <span class="truncate">Entrar</span>
+        </button>
+        <button aria-label="Open menu" class="md:hidden">
+          <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
       </div>
     </div>
   </header>
